@@ -50,7 +50,7 @@ bpsChart
 
 <br>
 
-![](images/bps.png){width=100%}
+![](images/bps.jpg){width=100%}
 
 <br>
 

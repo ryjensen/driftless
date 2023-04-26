@@ -111,13 +111,23 @@ evcgroup <- evcgroup %>% mutate(label = if_else(type %in% c("Tree", "Shrub", "He
 evclabel.list <- evcgroup$label
 evcgroup <- evcgroup %>% mutate(label = fct_rev(factor(label, evclabel.list)))
 
-# create factor level colors for legend
-cols <- c("Tree" = "#196F3D", "Shrub" = "#229954", "Herb" = "#52BE80", "Open Water" = "#7FB3D5",
-          "Other" = "#808B96")
+
+
+# create factor level colors for legend (original from Myles)
+## cols <- c("Tree" = "#196F3D", "Shrub" = "#229954", "Herb" = "#52BE80", "Open Water" = "#7FB3D5",
+##          "Other" = "#808B96")
+
+# join in custom cols column to color bars by specific label
+
+evc_group_cols <- read.csv("data/evc_group_cols.csv")
+
+evcgroup <- left_join(evcgroup, evc_group_cols, by = "label")
+
+evcgroup$label <- factor(evcgroup$label, levels = rev(evcgroup$label))
 
 # plot
 evcChart <-
-  ggplot(data = evcgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
+  ggplot(data = evcgroup, aes(x = label, y = REL_PERCENT, fill = colors)) +
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Cover",
@@ -125,9 +135,10 @@ evcChart <-
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
-  scale_fill_manual(values = cols, name = "") +
+  scale_fill_identity() +
   coord_flip() +
-  theme_bw(base_size = 14)
+  theme_bw(base_size = 12)+
+  theme(legend.position = "none")
 
 evcChart
 
@@ -193,13 +204,20 @@ evhlabel.list <- evhgroup$label
 evhgroup <- evhgroup %>% mutate(label = fct_rev(factor(label, evhlabel.list)))
 
 # create factor level colors for legend
-cols <- c("Tree" = "#196F3D", "Shrub" = "#229954", "Herb" = "#52BE80", "Open Water" = "#7FB3D5",
-          "Other" = "#808B96")
+##cols <- c("Tree" = "#196F3D", "Shrub" = "#229954", "Herb" = "#52BE80", "Open Water" = "#7FB3D5","Other" = "#808B96")
+
+# join in custom cols column to color bars by specific label
+
+evh_group_cols <- read.csv("data/evh_group_cols.csv")
+
+evhgroup <- left_join(evhgroup, evh_group_cols, by = "label")
+
+evhgroup$label <- factor(evhgroup$label, levels = rev(evhgroup$label))
 
 
 # plot
 evhChart <-
-ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
+ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = colors)) +
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Height",
@@ -207,11 +225,35 @@ ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
-  scale_fill_manual(values = cols, name = "") +
+  scale_fill_identity() +
   coord_flip() +
-  theme_bw(base_size = 14)
+  theme_bw(base_size = 12)+
+  theme(legend.position = "none")
 
 evhChart
+
+
+
+# plot with original color scheme
+# evhChart <-
+# ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
+#   geom_bar(stat = "identity") +
+#   labs(
+#     title = "Existing Vegetation Height",
+#     subtitle = "landscape_name",
+#     caption = "\nData from landfire.gov.",
+#     x = "",
+#     y = "Percent of landscape") +
+#   scale_fill_manual(values = cols, name = "") +
+#   coord_flip() +
+#   theme_bw()
+# 
+# evhChart
+
+
+
+
+
 ```
 
 <br>

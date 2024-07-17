@@ -27,17 +27,17 @@ evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
 # plot
 evtChart <-
   ggplot(data = evtname, aes(x = EVT_NAME, y = REL_PERCENT)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#310f61") +
   labs(
     title = "Top 10 Existing Vegetation Types",
-    subtitle = "Represents dominant vegetation systems ca2020",
+    subtitle = "Represents dominant vegetation systems",
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
   scale_x_discrete(limits = rev(evtname$EVT_NAME),
                    labels = function(x) str_wrap(x, width = 18)) +
   coord_flip() +
-  theme_bw(base_size = 14)
+  theme_bw(base_size = 28)
 
 evtChart
 ```

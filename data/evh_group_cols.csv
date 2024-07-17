@@ -19,15 +19,15 @@ Tree Height = 85-90 m,#162a16
 Tree Height = 90-95 m,#0e1f0e
 Tree Height = 95-100 m,#001500
 Shrub Height = 0.1-0.2 m,#d4b27d
-Shrub Height = 0.2-0.3 m,#cea36c
-Shrub Height = 0.3-0.4 m,#c9935d
-Shrub Height = 0.4-0.5 m,#c4844f
-Shrub Height = 0.5-0.6 m,#be7342
-Shrub Height = 0.6-0.7 m,#b96337
-Shrub Height = 0.7-0.8 m,#b3512f
-Shrub Height = 0.8-0.9 m,#ac3e28
-Shrub Height = 0.9-1.0 m,#a52823
-Shrub Height = 1-5 m,#9e0020
+Shrub Height = 0.2-0.3 m,#d4ae79
+Shrub Height = 0.3-0.4 m,#d1a675
+Shrub Height = 0.4-0.5 m,#d1a171
+Shrub Height = 0.5-0.6 m,#cf9b6d
+Shrub Height = 0.6-0.7 m,#cf9569
+Shrub Height = 0.7-0.8 m,#cc9166
+Shrub Height = 0.8-0.9 m,#c98961
+Shrub Height = 0.9-1.0 m,#c9865f
+Shrub Height = 1-5 m,#b34437
 Herb Height = 0.1-0.2 m,#ffcc66
 Herb Height = 0.2-0.3 m,#ffbf55
 Herb Height = 0.3-0.4 m,#ffb245
@@ -40,7 +40,7 @@ Herb Height = 0.9-1.0 m,#ff4f00
 Herb Height = 1-5 m,#ff3300
 Open Water,#7FB3D5
 Developed,#808B96
-Agriculture,#808B96
+Agriculture,#ffed77
 Sparse Vegetation,#808B96
 Barren,#808B96
 Quarries,#808B96

@@ -1,7 +1,98 @@
 [
   {
+    "objectID": "present.html",
+    "href": "present.html",
+    "title": "Present",
+    "section": "",
+    "text": "All outputs on this page generated with the most recent LANDFIRE Existing Vegetation Type, Cover and Height datasets, which represent conditions on the ground in 2020."
+  },
+  {
+    "objectID": "present.html#summary",
+    "href": "present.html#summary",
+    "title": "Present",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
+    "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
+    "href": "present.html#chart-of-most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Chart of most prevalent Existing Vegetation Types",
+    "text": "Chart of most prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#map-of-most-prevalent-existing-vegetation-types",
+    "href": "present.html#map-of-most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Map of most prevalent Existing Vegetation Types",
+    "text": "Map of most prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#chart-of-existing-vegetation-cover",
+    "href": "present.html#chart-of-existing-vegetation-cover",
+    "title": "Present",
+    "section": "Chart of Existing Vegetation Cover",
+    "text": "Chart of Existing Vegetation Cover"
+  },
+  {
+    "objectID": "present.html#map-of-existing-vegetation-cover",
+    "href": "present.html#map-of-existing-vegetation-cover",
+    "title": "Present",
+    "section": "Map of Existing Vegetation Cover",
+    "text": "Map of Existing Vegetation Cover"
+  },
+  {
+    "objectID": "present.html#chart-of-existing-vegetation-height",
+    "href": "present.html#chart-of-existing-vegetation-height",
+    "title": "Present",
+    "section": "Chart of Existing Vegetation Height",
+    "text": "Chart of Existing Vegetation Height"
+  },
+  {
+    "objectID": "present.html#map-of-existing-vegetation-height",
+    "href": "present.html#map-of-existing-vegetation-height",
+    "title": "Present",
+    "section": "Map of Existing Vegetation Height",
+    "text": "Map of Existing Vegetation Height"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Driftless, 2023",
+    "section": "",
+    "text": "In general we will use LANDFIRE products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\n\nOutputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively."
+  },
+  {
+    "objectID": "index.html#goals-of-this-quick-demonstration",
+    "href": "index.html#goals-of-this-quick-demonstration",
+    "title": "Driftless, 2023",
+    "section": "",
+    "text": "In general we will use LANDFIRE products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\n\nOutputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively."
+  },
+  {
+    "objectID": "index.html#interacting-with-this-web-report",
+    "href": "index.html#interacting-with-this-web-report",
+    "title": "Driftless, 2023",
+    "section": "Interacting with this web report",
+    "text": "Interacting with this web report\nA few notes about using this report:\n\nAs of April 26, 2023 there has been no QAQC. This is a demo only.\nThis platform is web-hosted so you can simply share a link with collaborators for their review.\n\nMaps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look.\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
+  },
+  {
+    "objectID": "index.html#location-of-this-assessment",
+    "href": "index.html#location-of-this-assessment",
+    "title": "Driftless, 2023",
+    "section": "Location of this assessment",
+    "text": "Location of this assessment"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "By Megan Dettenmaier\nLANDFIRE provides 25+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the U.S. and insular areas.\nOur direct connection to the LANDFIRE Program offers a comprehensive range of nationwide geospatial data products that reflect current and historic conditions. These products also include ecosystem dynamic models that can be used for conservation, fire planning, and land management decisions.\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis.\n\n “Advancing conservation outcomes through collaborative ecosystem science”"
+  },
+  {
+    "objectID": "about.html#what-is-landfire",
+    "href": "about.html#what-is-landfire",
     "title": "About",
     "section": "",
     "text": "By Megan Dettenmaier\nLANDFIRE provides 25+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the U.S. and insular areas.\nOur direct connection to the LANDFIRE Program offers a comprehensive range of nationwide geospatial data products that reflect current and historic conditions. These products also include ecosystem dynamic models that can be used for conservation, fire planning, and land management decisions.\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis.\n\n “Advancing conservation outcomes through collaborative ecosystem science”"
@@ -54,27 +145,6 @@
     "title": "Comparisons",
     "section": "Succession classes for most dominant Biophysical Settings",
     "text": "Succession classes for most dominant Biophysical Settings"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Driftless, 2023",
-    "section": "",
-    "text": "In general we will use LANDFIRE products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\n\nOutputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively."
-  },
-  {
-    "objectID": "index.html#interacting-with-this-web-report",
-    "href": "index.html#interacting-with-this-web-report",
-    "title": "Driftless, 2023",
-    "section": "Interacting with this web report",
-    "text": "Interacting with this web report\nA few notes about using this report:\n\nAs of April 26, 2023 there has been no QAQC. This is a demo only.\nThis platform is web-hosted so you can simply share a link with collaborators for their review.\n\nMaps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look.\nAll maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
-  },
-  {
-    "objectID": "index.html#location-of-this-assessment",
-    "href": "index.html#location-of-this-assessment",
-    "title": "Driftless, 2023",
-    "section": "Location of this assessment",
-    "text": "Location of this assessment"
   },
   {
     "objectID": "past.html",
@@ -130,62 +200,6 @@
     "href": "past.html#data-table",
     "title": "Past",
     "section": "Data table",
-    "text": "Data table\n\n\n\n\n \n  \n    ZONE \n    BPS_MODEL \n    BPS_NAME \n    GROUPVEG \n    FRI_REPLAC \n    FRI_MIXED \n    FRI_SURFAC \n    FRG_NEW \n    ACRES \n    REL_PERCENT \n  \n \n\n  \n    50 \n    13940_50_51 \n    North-Central Interior Oak Savanna \n    Hardwood \n    66 \n    184 \n    5 \n    I-A \n    4,403,538 \n    26.8 \n  \n  \n    42 \n    13100_38_42_43 \n    North-Central Interior Dry-Mesic Oak Forest and Woodland \n    Hardwood \n    126 \n    50 \n    76 \n    I-C \n    2,883,163 \n    17.6 \n  \n  \n    42 \n    14210_31_38_42_43_44_50_51 \n    Central Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    NA \n    II-A \n    1,791,267 \n    10.9 \n  \n  \n    50 \n    14210_31_38_42_43_44_50_51 \n    Central Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    NA \n    II-A \n    1,288,406 \n    7.8 \n  \n  \n    50 \n    15170_42_49_50 \n    Paleozoic Plateau Bluff and Talus \n    Hardwood-Conifer \n    15 \n    126 \n    102 \n    II-B \n    1,094,833 \n    6.7 \n  \n  \n    50 \n    13140_38_39_40_41_42_43_44_50 \n    North-Central Interior Maple-Basswood Forest \n    Hardwood \n    1,027 \n    NA \n    857 \n    V-A \n    630,795 \n    3.8 \n  \n  \n    42 \n    13140_38_39_40_41_42_43_44_50 \n    North-Central Interior Maple-Basswood Forest \n    Hardwood \n    1,027 \n    NA \n    857 \n    V-A \n    568,284 \n    3.5 \n  \n  \n    42 \n    14710_42_43 \n    Central Interior and Appalachian Floodplain Systems \n    Riparian \n    NA \n    NA \n    NA \n    NA \n    399,995 \n    2.4 \n  \n  \n    42 \n    15170_42_49_50 \n    Paleozoic Plateau Bluff and Talus \n    Hardwood-Conifer \n    15 \n    126 \n    102 \n    II-B \n    359,970 \n    2.2 \n  \n  \n    NA \n    NA \n    Open Water \n    Open Water \n    NA \n    NA \n    NA \n    NA \n    322,750 \n    2.0 \n  \n  \n    50 \n    14120_39_40_41_42_43_50_51 \n    North-Central Interior Sand and Gravel Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    87 \n    II-A \n    306,100 \n    1.9 \n  \n  \n    50 \n    13950_50 \n    North-Central Oak Barrens \n    Hardwood \n    53 \n    143 \n    6 \n    I-A \n    281,144 \n    1.7 \n  \n  \n    42 \n    14690_38_42_49 \n    Eastern Great Plains Floodplain Systems \n    Riparian \n    510 \n    76 \n    177 \n    III-A \n    254,939 \n    1.6 \n  \n  \n    50 \n    13100_44_50 \n    North-Central Interior Dry-Mesic Oak Forest and Woodland \n    Hardwood \n    123 \n    49 \n    76 \n    I-C \n    216,055 \n    1.3 \n  \n  \n    50 \n    14710_41_50 \n    Central Interior and Appalachian Floodplain Systems \n    Riparian \n    NA \n    432 \n    67 \n    III-A \n    210,874 \n    1.3 \n  \n  \n    49 \n    14210_49_52 \n    Central Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    NA \n    II-A \n    175,665 \n    1.1 \n  \n  \n    42 \n    14200_39_40_42 \n    Northern Tallgrass Prairie \n    Grassland \n    6 \n    NA \n    NA \n    II-B \n    172,429 \n    1.1 \n  \n  \n    49 \n    13100_49 \n    North-Central Interior Dry-Mesic Oak Forest and Woodland \n    Hardwood \n    75 \n    47 \n    23 \n    I-B \n    162,820 \n    1.0 \n  \n  \n    42 \n    14120_39_40_41_42_43_50_51 \n    North-Central Interior Sand and Gravel Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    87 \n    II-A \n    127,398 \n    0.8 \n  \n  \n    50 \n    13620_41_50 \n    Laurentian-Acadian Northern Pine(-Oak) Forest \n    Hardwood-Conifer \n    355 \n    680 \n    12 \n    I-B \n    127,841 \n    0.8 \n  \n  \n    50 \n    14790_41_42_47_48_50_51_53 \n    Central Interior and Appalachian Swamp Systems \n    Riparian \n    987 \n    NA \n    NA \n    V-B \n    100,484 \n    0.6 \n  \n  \n    42 \n    13850_31_39_40_42 \n    Western Great Plains Wooded Draw and Ravine \n    Shrubland \n    91 \n    65 \n    230 \n    I-C \n    89,426 \n    0.5 \n  \n  \n    50 \n    14071_41_50_51 \n    Laurentian Pine-Oak Barrens \n    Hardwood-Conifer \n    109 \n    75 \n    5 \n    I-A \n    66,821 \n    0.4 \n  \n  \n    50 \n    14770_40_41_50_51 \n    Boreal Acidic Peatland Systems \n    Riparian \n    716 \n    NA \n    123 \n    III-B \n    47,930 \n    0.3 \n  \n  \n    50 \n    14930_41_42_44_50 \n    Central Interior and Appalachian Shrub-Herbaceous Wetland Systems \n    Riparian \n    17 \n    NA \n    NA \n    II-C \n    50,209 \n    0.3 \n  \n  \n    41 \n    14200_41 \n    Northern Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    NA \n    II-A \n    41,848 \n    0.3 \n  \n  \n    42 \n    13940_42 \n    North-Central Interior Oak Savanna \n    Hardwood \n    530 \n    167 \n    5 \n    I-A \n    56,421 \n    0.3 \n  \n  \n    42 \n    13110_42_43 \n    North-Central Interior Dry Oak Forest and Woodland \n    Hardwood \n    141 \n    111 \n    11 \n    I-B \n    39,226 \n    0.2 \n  \n  \n    42 \n    14930_41_42_44_50 \n    Central Interior and Appalachian Shrub-Herbaceous Wetland Systems \n    Riparian \n    17 \n    NA \n    NA \n    II-C \n    36,174 \n    0.2 \n  \n  \n    50 \n    13110_50 \n    North-Central Interior Dry Oak Forest and Woodland \n    Hardwood \n    104 \n    98 \n    19 \n    I-B \n    17,233 \n    0.1 \n  \n  \n    41 \n    13100_41_62 \n    North-Central Interior Dry-Mesic Oak Forest and Woodland \n    Hardwood \n    74 \n    56 \n    23 \n    I-B \n    19,519 \n    0.1 \n  \n  \n    41 \n    13140_38_39_40_41_42_43_44_50 \n    North-Central Interior Maple-Basswood Forest \n    Hardwood \n    1,027 \n    NA \n    857 \n    V-A \n    11,161 \n    0.1 \n  \n  \n    41 \n    13940_39_40_41 \n    North-Central Interior Oak Savanna \n    Hardwood \n    550 \n    165 \n    5 \n    I-A \n    12,921 \n    0.1 \n  \n  \n    41 \n    14120_39_40_41_42_43_50_51 \n    North-Central Interior Sand and Gravel Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    87 \n    II-A \n    8,984 \n    0.1 \n  \n  \n    42 \n    14790_41_42_47_48_50_51_53 \n    Central Interior and Appalachian Swamp Systems \n    Riparian \n    987 \n    NA \n    NA \n    V-B \n    16,445 \n    0.1 \n  \n  \n    NA \n    NA \n    Barren-Rock/Sand/Clay \n    Barren-Rock/Sand/Clay \n    NA \n    NA \n    NA \n    NA \n    12 \n    0.0 \n  \n  \n    50 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    64 \n    0.0 \n  \n  \n    50 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    23 \n    0.0 \n  \n  \n    50 \n    14810_41_50_51_63 \n    Laurentian-Acadian Alkaline Conifer-Hardwood Swamp \n    Riparian \n    989 \n    NA \n    NA \n    V-B \n    5,604 \n    0.0 \n  \n  \n    41 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    2 \n    0.0 \n  \n  \n    41 \n    13950_41_42_43_49_52 \n    North-Central Oak Barrens \n    Hardwood \n    341 \n    246 \n    5 \n    I-A \n    433 \n    0.0 \n  \n  \n    41 \n    14710_41_50 \n    Central Interior and Appalachian Floodplain Systems \n    Riparian \n    NA \n    432 \n    67 \n    III-A \n    1,535 \n    0.0 \n  \n  \n    41 \n    14770_40_41_50_51 \n    Boreal Acidic Peatland Systems \n    Riparian \n    716 \n    NA \n    123 \n    III-B \n    17 \n    0.0 \n  \n  \n    41 \n    14790_41_42_47_48_50_51_53 \n    Central Interior and Appalachian Swamp Systems \n    Riparian \n    987 \n    NA \n    NA \n    V-B \n    773 \n    0.0 \n  \n  \n    41 \n    14810_41_50_51_63 \n    Laurentian-Acadian Alkaline Conifer-Hardwood Swamp \n    Riparian \n    989 \n    NA \n    NA \n    V-B \n    2 \n    0.0 \n  \n  \n    41 \n    14930_41_42_44_50 \n    Central Interior and Appalachian Shrub-Herbaceous Wetland Systems \n    Riparian \n    17 \n    NA \n    NA \n    II-C \n    1,732 \n    0.0 \n  \n  \n    41 \n    14940_41_50_51 \n    Laurentian-Acadian Shrub-Herbaceous Wetland Systems \n    Riparian \n    18 \n    NA \n    NA \n    II-C \n    10 \n    0.0 \n  \n  \n    49 \n    13110_49 \n    North-Central Interior Dry Oak Forest and Woodland \n    Hardwood \n    149 \n    149 \n    11 \n    I-B \n    940 \n    0.0 \n  \n  \n    49 \n    13140_49 \n    North-Central Interior Maple-Basswood Forest \n    Hardwood \n    1,030 \n    NA \n    845 \n    V-A \n    2,369 \n    0.0 \n  \n  \n    49 \n    14110_49_51_52 \n    Great Lakes Wet-Mesic Lakeplain Prairie \n    Riparian \n    24 \n    NA \n    NA \n    II-C \n    1 \n    0.0 \n  \n  \n    49 \n    14120_49 \n    North-Central Interior Sand and Gravel Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    87 \n    II-A \n    428 \n    0.0 \n  \n  \n    49 \n    14710_49_52 \n    Central Interior and Appalachian Floodplain Systems \n    Riparian \n    NA \n    426 \n    68 \n    III-A \n    6,768 \n    0.0 \n  \n  \n    49 \n    14720_49 \n    Central Interior and Appalachian Riparian Systems \n    Riparian \n    996 \n    NA \n    198 \n    III-B \n    34 \n    0.0 \n  \n  \n    49 \n    15170_42_49_50 \n    Paleozoic Plateau Bluff and Talus \n    Hardwood-Conifer \n    15 \n    126 \n    102 \n    II-B \n    1 \n    0.0 \n  \n  \n    42 \n    13950_41_42_43_49_52 \n    North-Central Oak Barrens \n    Hardwood \n    341 \n    246 \n    5 \n    I-A \n    4,506 \n    0.0 \n  \n  \n    42 \n    14880_38_42_43 \n    Eastern Great Plains Wet Meadow-Prairie-Marsh \n    Grassland \n    3 \n    NA \n    NA \n    II-A \n    690 \n    0.0 \n  \n  \n    41 \n    13620_41_50 \n    Laurentian-Acadian Northern Pine(-Oak) Forest \n    Hardwood-Conifer \n    355 \n    680 \n    12 \n    I-B \n    62 \n    0.0"
-  },
-  {
-    "objectID": "present.html",
-    "href": "present.html",
-    "title": "Present",
-    "section": "",
-    "text": "All outputs on this page generated with the most recent LANDFIRE Existing Vegetation Type, Cover and Height datasets, which represent conditions on the ground in 2020."
-  },
-  {
-    "objectID": "present.html#summary",
-    "href": "present.html#summary",
-    "title": "Present",
-    "section": "Summary",
-    "text": "Summary"
-  },
-  {
-    "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
-    "href": "present.html#chart-of-most-prevalent-existing-vegetation-types",
-    "title": "Present",
-    "section": "Chart of most prevalent Existing Vegetation Types",
-    "text": "Chart of most prevalent Existing Vegetation Types"
-  },
-  {
-    "objectID": "present.html#map-of-most-prevalent-existing-vegetation-types",
-    "href": "present.html#map-of-most-prevalent-existing-vegetation-types",
-    "title": "Present",
-    "section": "Map of most prevalent Existing Vegetation Types",
-    "text": "Map of most prevalent Existing Vegetation Types"
-  },
-  {
-    "objectID": "present.html#chart-of-existing-vegetation-cover",
-    "href": "present.html#chart-of-existing-vegetation-cover",
-    "title": "Present",
-    "section": "Chart of Existing Vegetation Cover",
-    "text": "Chart of Existing Vegetation Cover"
-  },
-  {
-    "objectID": "present.html#map-of-existing-vegetation-cover",
-    "href": "present.html#map-of-existing-vegetation-cover",
-    "title": "Present",
-    "section": "Map of Existing Vegetation Cover",
-    "text": "Map of Existing Vegetation Cover"
-  },
-  {
-    "objectID": "present.html#chart-of-existing-vegetation-height",
-    "href": "present.html#chart-of-existing-vegetation-height",
-    "title": "Present",
-    "section": "Chart of Existing Vegetation Height",
-    "text": "Chart of Existing Vegetation Height"
-  },
-  {
-    "objectID": "present.html#map-of-existing-vegetation-height",
-    "href": "present.html#map-of-existing-vegetation-height",
-    "title": "Present",
-    "section": "Map of Existing Vegetation Height",
-    "text": "Map of Existing Vegetation Height"
+    "text": "Data table\n\n\n\n\n\nZONE\nBPS_MODEL\nBPS_NAME\nGROUPVEG\nFRI_REPLAC\nFRI_MIXED\nFRI_SURFAC\nFRG_NEW\nACRES\nREL_PERCENT\n\n\n\n\n50\n13940_50_51\nNorth-Central Interior Oak Savanna\nHardwood\n66\n184\n5\nI-A\n4,403,538\n26.8\n\n\n42\n13100_38_42_43\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nHardwood\n126\n50\n76\nI-C\n2,883,163\n17.6\n\n\n42\n14210_31_38_42_43_44_50_51\nCentral Tallgrass Prairie\nGrassland\n4\nNA\nNA\nII-A\n1,791,267\n10.9\n\n\n50\n14210_31_38_42_43_44_50_51\nCentral Tallgrass Prairie\nGrassland\n4\nNA\nNA\nII-A\n1,288,406\n7.8\n\n\n50\n15170_42_49_50\nPaleozoic Plateau Bluff and Talus\nHardwood-Conifer\n15\n126\n102\nII-B\n1,094,833\n6.7\n\n\n50\n13140_38_39_40_41_42_43_44_50\nNorth-Central Interior Maple-Basswood Forest\nHardwood\n1,027\nNA\n857\nV-A\n630,795\n3.8\n\n\n42\n13140_38_39_40_41_42_43_44_50\nNorth-Central Interior Maple-Basswood Forest\nHardwood\n1,027\nNA\n857\nV-A\n568,284\n3.5\n\n\n42\n14710_42_43\nCentral Interior and Appalachian Floodplain Systems\nRiparian\nNA\nNA\nNA\nNA\n399,995\n2.4\n\n\n42\n15170_42_49_50\nPaleozoic Plateau Bluff and Talus\nHardwood-Conifer\n15\n126\n102\nII-B\n359,970\n2.2\n\n\nNA\nNA\nOpen Water\nOpen Water\nNA\nNA\nNA\nNA\n322,750\n2.0\n\n\n50\n14120_39_40_41_42_43_50_51\nNorth-Central Interior Sand and Gravel Tallgrass Prairie\nGrassland\n4\nNA\n87\nII-A\n306,100\n1.9\n\n\n50\n13950_50\nNorth-Central Oak Barrens\nHardwood\n53\n143\n6\nI-A\n281,144\n1.7\n\n\n42\n14690_38_42_49\nEastern Great Plains Floodplain Systems\nRiparian\n510\n76\n177\nIII-A\n254,939\n1.6\n\n\n50\n13100_44_50\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nHardwood\n123\n49\n76\nI-C\n216,055\n1.3\n\n\n50\n14710_41_50\nCentral Interior and Appalachian Floodplain Systems\nRiparian\nNA\n432\n67\nIII-A\n210,874\n1.3\n\n\n49\n14210_49_52\nCentral Tallgrass Prairie\nGrassland\n4\nNA\nNA\nII-A\n175,665\n1.1\n\n\n42\n14200_39_40_42\nNorthern Tallgrass Prairie\nGrassland\n6\nNA\nNA\nII-B\n172,429\n1.1\n\n\n49\n13100_49\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nHardwood\n75\n47\n23\nI-B\n162,820\n1.0\n\n\n42\n14120_39_40_41_42_43_50_51\nNorth-Central Interior Sand and Gravel Tallgrass Prairie\nGrassland\n4\nNA\n87\nII-A\n127,398\n0.8\n\n\n50\n13620_41_50\nLaurentian-Acadian Northern Pine(-Oak) Forest\nHardwood-Conifer\n355\n680\n12\nI-B\n127,841\n0.8\n\n\n50\n14790_41_42_47_48_50_51_53\nCentral Interior and Appalachian Swamp Systems\nRiparian\n987\nNA\nNA\nV-B\n100,484\n0.6\n\n\n42\n13850_31_39_40_42\nWestern Great Plains Wooded Draw and Ravine\nShrubland\n91\n65\n230\nI-C\n89,426\n0.5\n\n\n50\n14071_41_50_51\nLaurentian Pine-Oak Barrens\nHardwood-Conifer\n109\n75\n5\nI-A\n66,821\n0.4\n\n\n50\n14770_40_41_50_51\nBoreal Acidic Peatland Systems\nRiparian\n716\nNA\n123\nIII-B\n47,930\n0.3\n\n\n50\n14930_41_42_44_50\nCentral Interior and Appalachian Shrub-Herbaceous Wetland Systems\nRiparian\n17\nNA\nNA\nII-C\n50,209\n0.3\n\n\n41\n14200_41\nNorthern Tallgrass Prairie\nGrassland\n4\nNA\nNA\nII-A\n41,848\n0.3\n\n\n42\n13940_42\nNorth-Central Interior Oak Savanna\nHardwood\n530\n167\n5\nI-A\n56,421\n0.3\n\n\n42\n13110_42_43\nNorth-Central Interior Dry Oak Forest and Woodland\nHardwood\n141\n111\n11\nI-B\n39,226\n0.2\n\n\n42\n14930_41_42_44_50\nCentral Interior and Appalachian Shrub-Herbaceous Wetland Systems\nRiparian\n17\nNA\nNA\nII-C\n36,174\n0.2\n\n\n50\n13110_50\nNorth-Central Interior Dry Oak Forest and Woodland\nHardwood\n104\n98\n19\nI-B\n17,233\n0.1\n\n\n41\n13100_41_62\nNorth-Central Interior Dry-Mesic Oak Forest and Woodland\nHardwood\n74\n56\n23\nI-B\n19,519\n0.1\n\n\n41\n13140_38_39_40_41_42_43_44_50\nNorth-Central Interior Maple-Basswood Forest\nHardwood\n1,027\nNA\n857\nV-A\n11,161\n0.1\n\n\n41\n13940_39_40_41\nNorth-Central Interior Oak Savanna\nHardwood\n550\n165\n5\nI-A\n12,921\n0.1\n\n\n41\n14120_39_40_41_42_43_50_51\nNorth-Central Interior Sand and Gravel Tallgrass Prairie\nGrassland\n4\nNA\n87\nII-A\n8,984\n0.1\n\n\n42\n14790_41_42_47_48_50_51_53\nCentral Interior and Appalachian Swamp Systems\nRiparian\n987\nNA\nNA\nV-B\n16,445\n0.1\n\n\nNA\nNA\nBarren-Rock/Sand/Clay\nBarren-Rock/Sand/Clay\nNA\nNA\nNA\nNA\n12\n0.0\n\n\n50\n13022_41_50_51\nLaurentian-Acadian Northern Hardwoods Forest-Hemlock\nHardwood\n2,040\nNA\nNA\nV-B\n64\n0.0\n\n\n50\n13022_41_50_51\nLaurentian-Acadian Northern Hardwoods Forest-Hemlock\nHardwood\n2,040\nNA\nNA\nV-B\n23\n0.0\n\n\n50\n14810_41_50_51_63\nLaurentian-Acadian Alkaline Conifer-Hardwood Swamp\nRiparian\n989\nNA\nNA\nV-B\n5,604\n0.0\n\n\n41\n13022_41_50_51\nLaurentian-Acadian Northern Hardwoods Forest-Hemlock\nHardwood\n2,040\nNA\nNA\nV-B\n2\n0.0\n\n\n41\n13950_41_42_43_49_52\nNorth-Central Oak Barrens\nHardwood\n341\n246\n5\nI-A\n433\n0.0\n\n\n41\n14710_41_50\nCentral Interior and Appalachian Floodplain Systems\nRiparian\nNA\n432\n67\nIII-A\n1,535\n0.0\n\n\n41\n14770_40_41_50_51\nBoreal Acidic Peatland Systems\nRiparian\n716\nNA\n123\nIII-B\n17\n0.0\n\n\n41\n14790_41_42_47_48_50_51_53\nCentral Interior and Appalachian Swamp Systems\nRiparian\n987\nNA\nNA\nV-B\n773\n0.0\n\n\n41\n14810_41_50_51_63\nLaurentian-Acadian Alkaline Conifer-Hardwood Swamp\nRiparian\n989\nNA\nNA\nV-B\n2\n0.0\n\n\n41\n14930_41_42_44_50\nCentral Interior and Appalachian Shrub-Herbaceous Wetland Systems\nRiparian\n17\nNA\nNA\nII-C\n1,732\n0.0\n\n\n41\n14940_41_50_51\nLaurentian-Acadian Shrub-Herbaceous Wetland Systems\nRiparian\n18\nNA\nNA\nII-C\n10\n0.0\n\n\n49\n13110_49\nNorth-Central Interior Dry Oak Forest and Woodland\nHardwood\n149\n149\n11\nI-B\n940\n0.0\n\n\n49\n13140_49\nNorth-Central Interior Maple-Basswood Forest\nHardwood\n1,030\nNA\n845\nV-A\n2,369\n0.0\n\n\n49\n14110_49_51_52\nGreat Lakes Wet-Mesic Lakeplain Prairie\nRiparian\n24\nNA\nNA\nII-C\n1\n0.0\n\n\n49\n14120_49\nNorth-Central Interior Sand and Gravel Tallgrass Prairie\nGrassland\n4\nNA\n87\nII-A\n428\n0.0\n\n\n49\n14710_49_52\nCentral Interior and Appalachian Floodplain Systems\nRiparian\nNA\n426\n68\nIII-A\n6,768\n0.0\n\n\n49\n14720_49\nCentral Interior and Appalachian Riparian Systems\nRiparian\n996\nNA\n198\nIII-B\n34\n0.0\n\n\n49\n15170_42_49_50\nPaleozoic Plateau Bluff and Talus\nHardwood-Conifer\n15\n126\n102\nII-B\n1\n0.0\n\n\n42\n13950_41_42_43_49_52\nNorth-Central Oak Barrens\nHardwood\n341\n246\n5\nI-A\n4,506\n0.0\n\n\n42\n14880_38_42_43\nEastern Great Plains Wet Meadow-Prairie-Marsh\nGrassland\n3\nNA\nNA\nII-A\n690\n0.0\n\n\n41\n13620_41_50\nLaurentian-Acadian Northern Pine(-Oak) Forest\nHardwood-Conifer\n355\n680\n12\nI-B\n62\n0.0"
   }
 ]

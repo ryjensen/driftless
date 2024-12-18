@@ -13,18 +13,17 @@ library(rmarkdown)
 
 ```
 
-Outputs on this page compare "Past" conditions with "Present" conditions.  Results here are intended for exploration and illumination of issues to explore further.  As noted on the "Present" page there are differences in the classification scheme so direct comparisons should be viewed with caution.  
+## Comparing Past vs. Present Conditions
 
-## Summary
- 
+Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns.
 
-## Looking at broad changes, vegetation conversion
+-   First, we present **changes in broad ecosystem types** using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories. 
 
-This interactive 'chord' diagram allows you to explore changes on the landscape.  To use:
+-   Second, we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems.
 
-* Hover over the outer bands to see connections.  For example, if you over over the dark green outer band of the "Past Conifer" group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.
-* Alternatively, if you hover over the orange outer band of "Hardwood" you can see what the present extent of hardwoods vegetation was historically.
-* The popups contain acres for the band.
+
+
+*Note: number presented when hovering equals acres.*
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data

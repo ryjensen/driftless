@@ -4,17 +4,23 @@ title: "Present"
 
 ```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
+
 ```
 
+LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets describe vegetation conditions.
 
-All outputs on this page generated with the most recent LANDFIRE [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets, which represent conditions on the ground in 2020.  
+-   Existing Vegetation Type (EVT) - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016.
+-   Existing Vegetation Cover (EVC) - represents the vertically projected percent cover of the live canopy layer for a 30-m cell.
+-   Existing Vegetation Height (EVH) - represents the average height of the dominant vegetation for a 30-m cell.
+
+[Read more about LANDFIRE Vegetation Products](https://landfire.gov/vegetation.php){target="blank"}
 
 
-## Summary
+## Most Prevalent Existing Vegetation Types
 
+<br>
 
-
-## Chart of most prevalent Existing Vegetation Types
+![](images/evt.jpg){width=100%}
 
 ```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
@@ -22,38 +28,38 @@ evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
   summarize(ACRES = sum(ACRES),
             REL_PERCENT = sum(REL_PERCENT)) %>%
   arrange(desc(REL_PERCENT)) %>%
+  filter(!EVT_NAME %in% c("Open Water","Developed-Roads")) |> 
   top_n(n = 10, wt = REL_PERCENT)
 
 # plot
 evtChart <-
   ggplot(data = evtname, aes(x = EVT_NAME, y = REL_PERCENT)) +
-  geom_bar(stat = "identity", fill = "#310f61") +
+  geom_bar(stat = "identity") +
   labs(
     title = "Top 10 Existing Vegetation Types",
-    subtitle = "Represents dominant vegetation systems",
-    caption = "\nData from landfire.gov.",
+    caption = "Data from landfire.gov",
     x = "",
     y = "Percent of landscape") +
   scale_x_discrete(limits = rev(evtname$EVT_NAME),
                    labels = function(x) str_wrap(x, width = 18)) +
   coord_flip() +
-  theme_bw(base_size = 28)
+  theme_bw(base_size = 14)
 
 evtChart
 ```
 
-<br>
-
-## Map of most prevalent Existing Vegetation Types
-
-<br>
-
-![](images/evt.jpg){width=100%}
 
 <br>
 
 
-## Chart of Existing Vegetation Cover
+##  Existing Vegetation Cover
+
+The Existing Vegetation Cover (EVC) map is a visual representation of EVC classifications across the subregion. The chart below the map provides a breakdown of each vegetation cover classification and their relative distribution across the forest.
+
+
+![](images/evc.jpg){width=100%}
+
+<br>
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -146,11 +152,16 @@ evcChart
 
 <br>
 
-## Map of Existing Vegetation Cover
 
-![](images/evc.jpg){width=100%}
+## Existing Vegetation Height
 
-## Chart of Existing Vegetation Height
+The Existing Vegetation Height (EVH) map showcases EVH across the forest. The chart below the map provides the percentage of the landscape represented by each EVH height.
+
+<br>
+
+![](images/evh.jpg){width=100%}
+
+<br>
 
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
@@ -258,8 +269,6 @@ evhChart
 
 <br>
 
-## Map of Existing Vegetation Height
 
-![](images/evh.jpg){width=100%}
 
 
